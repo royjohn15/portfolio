@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roy John — Terminal Portfolio</title>
+  <meta name="description" content="Interactive terminal-style portfolio of Roy John - Data Scientist & Mathematics Researcher" />
+  <link rel="preload" href="style.css" as="style" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Semantic main container for screen readers -->
+  <main class="terminal" aria-label="Terminal window">
+    <!-- Top bar (purely decorative) -->
+    <header class="titlebar" aria-hidden="true">
+      <div class="dots">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+      <div class="title">~/royjohn — terminal</div>
+    </header>
+
+    <!-- Output region; aria-live to announce new lines -->
+    <section id="output" class="output" aria-live="polite" aria-atomic="false" role="log"></section>
+
+    <!-- Prompt line -->
+    <form id="cli" class="cli" autocomplete="off" spellcheck="false" aria-label="Command line interface">
+      <label for="input" class="prompt" aria-hidden="true">
+        <span class="path">guest@royjohn</span>:<span class="tilde">~</span>$
+      </label>
+      <!-- Using contenteditable for full control & custom caret -->
+      <div id="input" class="input" contenteditable="true" role="textbox" aria-multiline="false" aria-label="Type a command and press Enter" autofocus></div>
+      <span class="cursor" aria-hidden="true">█</span>
+      <button type="submit" class="sr-only">Run</button>
+    </form>
+
+    <noscript>
+      <p class="noscript">This site is interactive and needs JavaScript enabled.</p>
+    </noscript>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
