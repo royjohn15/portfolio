@@ -18,7 +18,7 @@ const PORTFOLIO = {
   github: "https://github.com/royjohn15",
   
   bio: {
-    summary: "Research-focused Data Scientist with strong mathematical foundations and 3+ years of experience in ML/AI research. Specialized in anomaly detection, statistical modeling, and applied mathematics.",
+    summary: "Passionate in the field of Applied Mathematics, AI/ML & Data Science",
     research_interests: [
       "Machine Learning & Deep Learning Applications",
       "Anomaly and Fraud Detection Systems", 
@@ -310,8 +310,6 @@ const BANNER = `
 ██╔══██╗██║   ██║  ╚██╔╝      ██   ██║██║   ██║██╔══██║██║╚██╗██║
 ██║  ██║╚██████╔╝   ██║       ╚█████╔╝╚██████╔╝██║  ██║██║ ╚████║
 ╚═╝  ╚═╝ ╚═════╝    ╚═╝        ╚════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
-
-        Data Scientist | Mathematics Researcher | ML Engineer
         ════════════════════════════════════════════════════════
 `;
 
